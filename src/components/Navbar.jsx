@@ -7,7 +7,7 @@ const Navbar = () => {
     const {toggleTheme,theme} = useContext(ThemeContext)
     return (
         <div className={styles.navbar}>
-            <h2>My Dashboard</h2>
+            <h2>Dashboard</h2>
             <h2>{`${theme=="light"? "Make dark" : "Make light"}`}</h2>
             <Switch size='md' onChange={toggleTheme} />
            
